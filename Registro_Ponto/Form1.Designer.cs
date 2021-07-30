@@ -44,6 +44,21 @@ namespace Registro_Ponto
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.turnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.impressãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajustarTurnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionáriosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.crachásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajustarTurnosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajustarEntradasESaídasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -97,7 +112,7 @@ namespace Registro_Ponto
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(15, 12);
+            this.button1.Location = new System.Drawing.Point(14, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 54);
             this.button1.TabIndex = 6;
@@ -106,7 +121,7 @@ namespace Registro_Ponto
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(96, 12);
+            this.button2.Location = new System.Drawing.Point(95, 30);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 54);
             this.button2.TabIndex = 7;
@@ -115,7 +130,7 @@ namespace Registro_Ponto
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(177, 12);
+            this.button3.Location = new System.Drawing.Point(176, 30);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 54);
             this.button3.TabIndex = 8;
@@ -124,7 +139,7 @@ namespace Registro_Ponto
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(258, 12);
+            this.button4.Location = new System.Drawing.Point(257, 30);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 54);
             this.button4.TabIndex = 9;
@@ -133,7 +148,7 @@ namespace Registro_Ponto
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(339, 12);
+            this.button5.Location = new System.Drawing.Point(338, 30);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 54);
             this.button5.TabIndex = 10;
@@ -142,7 +157,7 @@ namespace Registro_Ponto
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(420, 12);
+            this.button6.Location = new System.Drawing.Point(419, 30);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 54);
             this.button6.TabIndex = 11;
@@ -151,7 +166,7 @@ namespace Registro_Ponto
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(501, 12);
+            this.button7.Location = new System.Drawing.Point(500, 30);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 54);
             this.button7.TabIndex = 12;
@@ -160,7 +175,7 @@ namespace Registro_Ponto
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(582, 12);
+            this.button8.Location = new System.Drawing.Point(581, 30);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 54);
             this.button8.TabIndex = 13;
@@ -169,13 +184,115 @@ namespace Registro_Ponto
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(663, 12);
+            this.button9.Location = new System.Drawing.Point(662, 30);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 54);
             this.button9.TabIndex = 14;
             this.button9.Text = "button9";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.arquivoToolStripMenuItem,
+            this.ajudaToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(753, 24);
+            this.menuStrip1.TabIndex = 15;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // arquivoToolStripMenuItem
+            // 
+            this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.funcionáriosToolStripMenuItem,
+            this.turnoToolStripMenuItem,
+            this.impressãoToolStripMenuItem,
+            this.ajustarTurnosToolStripMenuItem1,
+            this.ajustarEntradasESaídasToolStripMenuItem,
+            this.opçõesToolStripMenuItem,
+            this.fecharToolStripMenuItem});
+            this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.arquivoToolStripMenuItem.Text = "Arquivo";
+            // 
+            // funcionáriosToolStripMenuItem
+            // 
+            this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.funcionáriosToolStripMenuItem.Text = "Funcionários";
+            // 
+            // turnoToolStripMenuItem
+            // 
+            this.turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
+            this.turnoToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.turnoToolStripMenuItem.Text = "Turno";
+            // 
+            // impressãoToolStripMenuItem
+            // 
+            this.impressãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ajustarTurnosToolStripMenuItem,
+            this.funcionáriosToolStripMenuItem1,
+            this.crachásToolStripMenuItem});
+            this.impressãoToolStripMenuItem.Name = "impressãoToolStripMenuItem";
+            this.impressãoToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.impressãoToolStripMenuItem.Text = "Impressão";
+            // 
+            // ajustarTurnosToolStripMenuItem
+            // 
+            this.ajustarTurnosToolStripMenuItem.Name = "ajustarTurnosToolStripMenuItem";
+            this.ajustarTurnosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.ajustarTurnosToolStripMenuItem.Text = "Impressão de Cartão";
+            // 
+            // ajudaToolStripMenuItem
+            // 
+            this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sobreToolStripMenuItem});
+            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.ajudaToolStripMenuItem.Text = "Ajuda";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
+            // funcionáriosToolStripMenuItem1
+            // 
+            this.funcionáriosToolStripMenuItem1.Name = "funcionáriosToolStripMenuItem1";
+            this.funcionáriosToolStripMenuItem1.Size = new System.Drawing.Size(182, 22);
+            this.funcionáriosToolStripMenuItem1.Text = "Funcionários";
+            // 
+            // crachásToolStripMenuItem
+            // 
+            this.crachásToolStripMenuItem.Name = "crachásToolStripMenuItem";
+            this.crachásToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.crachásToolStripMenuItem.Text = "Crachás";
+            // 
+            // ajustarTurnosToolStripMenuItem1
+            // 
+            this.ajustarTurnosToolStripMenuItem1.Name = "ajustarTurnosToolStripMenuItem1";
+            this.ajustarTurnosToolStripMenuItem1.Size = new System.Drawing.Size(212, 22);
+            this.ajustarTurnosToolStripMenuItem1.Text = "Ajustar Turnos";
+            // 
+            // ajustarEntradasESaídasToolStripMenuItem
+            // 
+            this.ajustarEntradasESaídasToolStripMenuItem.Name = "ajustarEntradasESaídasToolStripMenuItem";
+            this.ajustarEntradasESaídasToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.ajustarEntradasESaídasToolStripMenuItem.Text = "Ajustar - Entradas e Saídas";
+            // 
+            // opçõesToolStripMenuItem
+            // 
+            this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
+            this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.opçõesToolStripMenuItem.Text = "Opções";
+            // 
+            // fecharToolStripMenuItem
+            // 
+            this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
+            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.fecharToolStripMenuItem.Text = "Fechar";
             // 
             // Form1
             // 
@@ -197,8 +314,12 @@ namespace Registro_Ponto
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Registro de Ponto";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,6 +342,20 @@ namespace Registro_Ponto
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem arquivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem funcionáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem turnoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem impressãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajustarTurnosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem funcionáriosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem crachásToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajustarTurnosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ajustarEntradasESaídasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fecharToolStripMenuItem;
     }
 }
 
